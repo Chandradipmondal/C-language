@@ -1,0 +1,24 @@
+ #include <stdio.h>
+ 
+ int main(){
+    int a;
+    printf("The value of a is\n");
+    scanf("%d", &a);
+    switch(a){
+        case 1:
+        printf("you entered 1\n");
+        break;
+        case 2:
+        printf("you entered 2\n");
+        break;
+        case 3:
+        printf("you entered 3\n");
+        break;
+        case 4:
+        printf("you entered 4\n");
+        break;
+        default:"you not enter any number";
+    }
+    
+    return 0;
+ }
